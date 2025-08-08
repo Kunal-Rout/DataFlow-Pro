@@ -1,0 +1,21 @@
+Employee_ID,Name,Age,Department,Salary,Performance_Score,Years_Experience,Education,City,Join_Date
+1001,John Smith,28,IT,55000,85,3,Bachelor,New York,2023-01-15
+1002,Jane Doe,34,HR,75000,92,7,Master,Los Angeles,2022-03-20
+1003,Bob Johnson,31,Finance,68000,78,5,Bachelor,Chicago,2021-06-10
+1004,Alice Brown,29,IT,62000,90,4,Bachelor,New York,2023-04-05
+1005,Charlie Wilson,42,Finance,95000,88,12,MBA,Chicago,2019-08-12
+1006,Diana Clark,27,Marketing,48000,82,2,Bachelor,Boston,2023-07-01
+1007,Edward Davis,35,IT,72000,86,8,Master,San Francisco,2020-11-30
+1008,Fiona Miller,31,HR,69000,89,6,Bachelor,Los Angeles,2022-01-18
+1009,George Taylor,38,Finance,81000,84,10,Master,Chicago,2021-03-25
+1010,Helen Anderson,26,Marketing,51000,87,1,Bachelor,Boston,2023-09-10
+1011,Ivan Martinez,33,IT,77000,91,7,Master,San Francisco,2021-12-05
+1012,Julia Rodriguez,30,HR,64000,83,5,Bachelor,New York,2022-05-14
+1013,Kevin Lee,36,Finance,79000,85,9,MBA,Chicago,2020-07-22
+1014,Lisa Garcia,32,Marketing,66000,88,6,Master,Boston,2022-09-08
+1015,Michael White,29,IT,59000,89,4,Bachelor,San Francisco,2023-02-28
+1016,Nancy Thompson,37,HR,73000,86,8,Master,Los Angeles,2021-04-16
+1017,Oliver Jackson,41,Finance,87000,82,13,MBA,Chicago,2019-10-03
+1018,Patricia Harris,28,Marketing,56000,84,3,Bachelor,Boston,2023-05-20
+1019,Quincy Martin,34,IT,71000,90,7,Master,New York,2021-08-11
+1020,Rachel Lewis,30,HR,63000,87,5,Bachelor,San Francisco,2022-11-07
