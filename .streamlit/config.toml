@@ -1,0 +1,24 @@
+[theme]
+primaryColor = "#1f77b4"
+backgroundColor = "#ffffff"
+secondaryBackgroundColor = "#f0f2f6"
+textColor = "#262730"
+font = "sans serif"
+
+[server]
+fileWatcherExcludePatterns = []
+fileWatcherType = "auto"
+headless = false
+runOnSave = false
+port = 8501
+enableCORS = true
+enableXsrfProtection = true
+maxUploadSize = 200
+maxMessageSize = 200
+enableWebsocketCompression = false
+enableStaticServing = false
+
+[browser]
+serverAddress = "localhost"
+gatherUsageStats = true
+serverPort = 8501
