@@ -6,19 +6,7 @@ textColor = "#262730"
 font = "sans serif"
 
 [server]
-fileWatcherExcludePatterns = []
-fileWatcherType = "auto"
-headless = false
-runOnSave = false
+headless = true
 port = 8501
-enableCORS = true
-enableXsrfProtection = true
-maxUploadSize = 200
-maxMessageSize = 200
-enableWebsocketCompression = false
-enableStaticServing = false
+enableCORS = false
 
-[browser]
-serverAddress = "localhost"
-gatherUsageStats = true
-serverPort = 8501
