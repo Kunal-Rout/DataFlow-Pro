@@ -351,8 +351,8 @@ def show_cleaning():
                 # Drop selected columns FIRST
                 if columns_to_drop:
                     df = df.drop(columns=columns_to_drop)
-                    st.success(f"✅ Dropped {len(columns_to_drop)} columns: 
-                    {', '.join(columns_to_drop)}")
+                    st.success(f"✅ Dropped {len(columns_to_drop)} columns: {', '.join(columns_to_drop)}")
+
 
                 # Handle missing values
                 if missing_action == "Drop rows with missing values":
@@ -967,6 +967,7 @@ def show_statistics():
 
 if __name__ == "__main__":
     main()
+
 
 
 
