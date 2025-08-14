@@ -319,6 +319,14 @@ def show_cleaning():
 
     with col3:
         remove_duplicates = st.checkbox("🗑️ Remove duplicate rows")
+        # New: Drop columns multiselect
+        columns_to_drop = st.multiselect(
+            "Select columns to drop",
+            options=list(df.columns),
+            help="Choose columns you want to remove from the dataset"
+        )
+        if columns_to_drop:
+            st.info(f"Selected columns to drop: {', '.join(columns_to_drop)}")
         if remove_duplicates:
             dup_count = df.duplicated().sum()
             if dup_count > 0:
@@ -954,4 +962,5 @@ def show_statistics():
 
 if __name__ == "__main__":
     main()
+
 
